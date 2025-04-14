@@ -13,7 +13,7 @@ const HeroImgText = () => {
         </div>
 
         {/* Right Text Section */}
-        <div className="p-2 md:p-8 flex flex-col w-full md:w-[50%]">
+        <div className="card p-2 md:p-8 flex flex-col w-full md:w-[50%]">
           <h2 className="text-3xl font-bold text-gray-800">The Man</h2>
           <h2>The Mandate </h2>
           <h2>The Isaac Oyedepo</h2>
