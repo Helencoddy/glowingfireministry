@@ -4,7 +4,7 @@ const CTABook = () => {
   return (
     <div className="">
       {/* Book CTA Section */}
-      <div className="bg-white bg-opacity-90 px-8 md:px-16 py-20 md:py-32 flex flex-col md:flex-row gap-5 md:gap-10 w-full overflow-hidden">
+      <div className="bg-white bg-opacity-90 px-5 md:px-16 py-20 md:py-32 flex flex-col md:flex-row gap-5 md:gap-10 w-full overflow-hidden">
         {/* Left Image Section */}
         <div className="w-full md:w-[50%]">
           <img
