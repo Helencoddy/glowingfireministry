@@ -15,7 +15,7 @@ const HeroImgText = () => {
         </div>
 
         {/* Right Text Section */}
-        <div className="md:card p-2 md:p-8 flex flex-col w-full  md:w-[50%] md:h-[40%]">
+        <div className="md:card p-2 md:py-8  flex flex-col w-full md:w-[50%] md:h-[40%]">
           <h2 className="text-3xl font-bold text-gray-800">The Man</h2>
           <h2>The Mandate </h2>
           <h2>The Prophet Akingbade</h2>

@@ -7,6 +7,8 @@ const images = [
   "/Exploit.jpg",
   "/Partner.jpg",
   "/Background.jpg",
+  "/use.jpg",
+  "/Another.jpg"
 ];
 
 export default function ImageSlider() {
@@ -51,7 +53,7 @@ export default function ImageSlider() {
     //     <FaChevronRight size={32} />
     //   </button>
     // </div>
-    <div className="relative w-full h-[300px] sm:h-[350px] md:h-[400px] lg:h-[350px] overflow-hidden mx-auto ">
+    <div className="relative w-full h-[300px] sm:h-[350px] md:h-[400px] lg:h-[330px]  overflow-hidden mx-auto ">
       <img
         src={images[index]}
         alt={`Slide ${index}`}

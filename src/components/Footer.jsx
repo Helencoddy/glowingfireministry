@@ -14,7 +14,7 @@ const Footer = () => {
               className="w-20 mb-4"
             />
             <p className="text-gray-400">
-              Anazao Generation Connect is a ministry saddled with the mandate
+            Glowing Fire Christian Ministry is a ministry saddled with the mandate
               to reclaim, restore, and revive this generation.
             </p>
             <div className="flex gap-4 mt-4">
@@ -43,12 +43,12 @@ const Footer = () => {
             <div className="mt-4 space-y-3">
               <p className="flex items-center gap-2">
                 <img src="/icons/email.svg" alt="Email" className="w-5" />
-                <span>info@theisaacoyedepo.org</span>
+                <span>info@theglowingfireministry.com</span>
               </p>
               <p className="flex items-start gap-2">
                 <img src="/icons/location.svg" alt="Location" className="w-5" />
                 <span>
-                  <strong>Anazao Generation Connect</strong>
+                  <strong>Glowing Fire Ministry</strong>
                   <br />
                   Plot 22C, Cluster 3, River Park Estate, Lugbe, Abuja, Nigeria.
                 </span>
@@ -116,7 +116,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="mt-10 border-t border-gray-700 pt-4 flex justify-between items-center text-center text-gray-400 text-sm">
+        <div className="hidden md:flex mt-10 border-t border-gray-700 pt-4  justify-between items-center text-center text-gray-400 text-sm">
           <p className="text-[9px]">
             Copyright © 2024 Anazao Generation Connect a.k.a The Isaac Oyedepo
             Evangelistic Ministries
