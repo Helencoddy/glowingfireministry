@@ -1,4 +1,15 @@
 import React from "react";
+import {
+  FaPhone,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaRegClock,
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaYoutube,
+} from "react-icons/fa";
+import { SiTiktok } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -14,25 +25,45 @@ const Footer = () => {
               className="w-20 mb-4"
             />
             <p className="text-gray-400">
-            Glowing Fire Christian Ministry is a ministry saddled with the mandate
-              to reclaim, restore, and revive this generation.
+              Glowing Fire Christian Ministry is a ministry saddled with the
+              mandate to reclaim, restore, and revive this generation.
             </p>
             <div className="flex gap-4 mt-4">
-              <a href="#">
-                <img src="/icons/facebook.svg" alt="Facebook" className="w-6" />
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebookF />
               </a>
-              <a href="#">
-                <img src="/icons/x.svg" alt="X" className="w-6" />
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTwitter />
               </a>
-              <a href="#">
-                <img src="/icons/youtube.svg" alt="YouTube" className="w-6" />
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
               </a>
-              <a href="#">
-                <img
-                  src="/icons/instagram.svg"
-                  alt="Instagram"
-                  className="w-6"
-                />
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaYoutube />
+              </a>
+
+              <a
+                href="https://tiktok.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SiTiktok />
               </a>
             </div>
           </div>
@@ -42,11 +73,11 @@ const Footer = () => {
             <h3 className="font-bold text-lg">Contact</h3>
             <div className="mt-4 space-y-3">
               <p className="flex items-center gap-2">
-                <img src="/icons/email.svg" alt="Email" className="w-5" />
+                <FaEnvelope className="" />
                 <span>info@theglowingfireministry.com</span>
               </p>
               <p className="flex items-start gap-2">
-                <img src="/icons/location.svg" alt="Location" className="w-5" />
+                <FaMapMarkerAlt className="" />
                 <span>
                   <strong>Glowing Fire Ministry</strong>
                   <br />
@@ -54,11 +85,11 @@ const Footer = () => {
                 </span>
               </p>
               <p className="flex items-center gap-2">
-                <img src="/icons/phone.svg" alt="Phone" className="w-5" />
+                <FaRegClock className="" />
                 <span>Monday-Friday: 9am - 4pm</span>
               </p>
               <p className="flex items-center gap-2">
-                <img src="/icons/phone.svg" alt="Phone" className="w-5" />
+                <FaPhone className="" />
                 <span>+234 913 134 8346</span>
               </p>
             </div>
@@ -88,7 +119,7 @@ const Footer = () => {
                   Give Online
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="text-gray-400 hover:text-white">
                   Join The M2G Academy
                 </a>
@@ -97,7 +128,7 @@ const Footer = () => {
                 <a href="#" className="text-gray-400 hover:text-white">
                   Volunteer
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 

@@ -7,9 +7,7 @@ const AboutHeader = () => {
       <div className="absolute inset-0 bg-blue-900/90 z-0" />
 
       {/* Content */}
-      <div className="relative z-10 flex items-center justify-center h-full text-white text-3xl font-bold">
-        About
-      </div>
+      <div className="relative z-10 flex items-center justify-center h-full text-white text-3xl font-bold"></div>
     </div>
   );
 };
