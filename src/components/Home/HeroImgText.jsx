@@ -1,7 +1,9 @@
+import Hero from "./Hero";
 const HeroImgText = () => {
   return (
     <>
       {/* Hero Section */}
+      <Hero />
       <div className="bg-white bg-opacity-90 px-5 md:px-16 py-10 md:py-32 flex flex-col md:flex-row gap-5 md:gap-10 w-full  overflow-hidden">
         {/* Left Image Section */}
         <div className="w-full md:w-[50%] md:h-[30%] ]">

@@ -6,7 +6,7 @@ import HomeCTA from "../components/Home/HomeCTA";
 import CTABook from "../components/Home/CTABook";
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <HeroImgText />
       <SecondSection />
       <ThirdSection />

@@ -1,12 +1,12 @@
+// File: components/ImageSlider.tsx
+
 import React, { useState, useEffect } from "react";
-// import { AnimatePresences, motion} from "framer-motion";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import ImageOne from "../";
+
 const images = [
-  "https://source.unsplash.com/1600x900/?nature,water",
-  "https://source.unsplash.com/1600x900/?mountains",
-  "https://source.unsplash.com/1600x900/?forest",
-  "https://source.unsplash.com/1600x900/?sunset",
+  "/Exploit.jpg",
+  "/Partner.jpg",
+  "/Background.jpg",
 ];
 
 export default function ImageSlider() {
@@ -28,33 +28,50 @@ export default function ImageSlider() {
   };
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden">
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={index}
-          className="absolute w-full h-full bg-cover bg-center"
-          style={{ backgroundImage: `url(${images[index]})` }}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 1 }}
-        />
-      </AnimatePresence>
+    // <div className="relative w-full h-screen overflow-hidden">
+    //   <img
+    //     src={images[index]}
+    //     alt={`Slide ${index}`}
+    //     className="absolute w-full h-full object-cover transition-opacity duration-500"
+    //   />
+
+    //   {/* Left Button */}
+    //   <button
+    //     onClick={prevImage}
+    //     className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg hover:bg-gray-700 z-10"
+    //   >
+    //     <FaChevronLeft size={32} />
+    //   </button>
+
+    //   {/* Right Button */}
+    //   <button
+    //     onClick={nextImage}
+    //     className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg hover:bg-gray-700 z-10"
+    //   >
+    //     <FaChevronRight size={32} />
+    //   </button>
+    // </div>
+    <div className="relative w-full h-[300px] sm:h-[350px] md:h-[400px] lg:h-[350px] overflow-hidden mx-auto ">
+      <img
+        src={images[index]}
+        alt={`Slide ${index}`}
+        className="w-full h-full object-cover transition-opacity duration-500"
+      />
 
       {/* Left Button */}
       <button
         onClick={prevImage}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg hover:bg-gray-700 z-10"
+        className="absolute left-4 top-1/2 -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg hover:bg-gray-700 z-10"
       >
-        <FaChevronLeft size={32} />
+        <FaChevronLeft size={24} />
       </button>
 
       {/* Right Button */}
       <button
         onClick={nextImage}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg hover:bg-gray-700 z-10"
+        className="absolute right-4 top-1/2 -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg hover:bg-gray-700 z-10"
       >
-        <FaChevronRight size={32} />
+        <FaChevronRight size={24} />
       </button>
     </div>
   );

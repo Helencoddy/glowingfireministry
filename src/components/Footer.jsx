@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Left Section */}
           <div className="flex flex-col items-start">
             <img
-              src="/Logo2.png"
+              src="/Logo.png"
               alt="Glowing fire Ministry Logo"
               className="w-20 mb-4"
             />
@@ -105,10 +105,10 @@ const Footer = () => {
           <div className="flex flex-col items-center md:col-span-1">
             <img
               src="/Prophet.jpg"
-              alt="Isaac Oyedepo"
-              className="w-40 h-40 object-cover rounded-lg"
+              alt="Prophet Akingbade"
+              className="w-40 h-40 object-cover "
             />
-            <h3 className="font-bold mt-2">Isaac Oyedepo</h3>
+            <h3 className="font-bold mt-2">Prophet Akingbade</h3>
             <p className="text-gray-400 text-center">
               Follower of Christ, Husband, Father, Evangelist and Author.
             </p>

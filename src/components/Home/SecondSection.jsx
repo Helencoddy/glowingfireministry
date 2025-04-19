@@ -42,7 +42,7 @@ const SecondSection = () => {
 
         <div className="w-full card md:w-[50%]">
           <img
-            src="Prophet.jpg"
+            src="DaddyTwo.jpg"
             alt="Left Section"
             className="w-full h-full object-cover md:rounded-lg"
           />
