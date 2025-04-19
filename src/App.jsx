@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import HomeCTA from "./components/Home/HomeCTA";
 import CTABook from "./components/Home/CTABook";
 import Footer from "./components/Footer";
+import About from "./components/About/About";
 const App = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/homecta" element={<HomeCTA />} />
           <Route path="/ctabook" element={<CTABook />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </Router>
       <Footer />

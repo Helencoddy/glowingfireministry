@@ -30,29 +30,7 @@ export default function ImageSlider() {
   };
 
   return (
-    // <div className="relative w-full h-screen overflow-hidden">
-    //   <img
-    //     src={images[index]}
-    //     alt={`Slide ${index}`}
-    //     className="absolute w-full h-full object-cover transition-opacity duration-500"
-    //   />
-
-    //   {/* Left Button */}
-    //   <button
-    //     onClick={prevImage}
-    //     className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg hover:bg-gray-700 z-10"
-    //   >
-    //     <FaChevronLeft size={32} />
-    //   </button>
-
-    //   {/* Right Button */}
-    //   <button
-    //     onClick={nextImage}
-    //     className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-lg hover:bg-gray-700 z-10"
-    //   >
-    //     <FaChevronRight size={32} />
-    //   </button>
-    // </div>
+  
     <div className="relative w-full h-[300px] sm:h-[350px] md:h-[400px] lg:h-[330px]  overflow-hidden mx-auto ">
       <img
         src={images[index]}
