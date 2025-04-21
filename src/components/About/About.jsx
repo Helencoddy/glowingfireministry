@@ -59,7 +59,7 @@ const About = () => {
             id="accordion"
           >
             {/* Title Section */}
-            <div className="mt-10 mb-3 px-2 text-left">
+            <div className="mt-10 mb-3 px-4 md:px-2 text-left">
               <p className="text-lg font-semibold text-black">The Ministry</p>
               <p>
                 Glowing Fire Christian Ministry is an apostolic ministry saddled
@@ -104,7 +104,7 @@ const About = () => {
               </div>
             ))}
 
-            <p>
+            <p className="px-4 md:px-0">
               Glowing Fire Christian Ministry is an apostolic ministry saddled
               with the mandate to reclaim, restore, and revive this generation.
               “Preach the Word; be instant in season and out of season… Do the
